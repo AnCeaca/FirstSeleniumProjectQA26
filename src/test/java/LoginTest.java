@@ -26,8 +26,6 @@ public class LoginTest {
         driver.manage().window().maximize();
         driver.get("http://testfasttrackit.info/selenium-test/");
         driver.findElement(By.cssSelector("#header > div > div.skip-links > div > a > span.label")).click();
-//        WebElement accountLink = driver.findElement(By.cssSelector("#header > div > div.skip-links > div > a > span.label"));
-//        accountLink.click();
         driver.findElement(By.cssSelector("#header-account > div > ul > li.last > a")).click();
         driver.findElement(By.id("email")).sendKeys("cosmin@fasttrackit.org");
         driver.findElement(By.id("pass")).sendKeys("121233456");
@@ -41,8 +39,6 @@ public class LoginTest {
         driver.manage().window().maximize();
         driver.get("http://testfasttrackit.info/selenium-test/");
         driver.findElement(By.cssSelector("#header > div > div.skip-links > div > a > span.label")).click();
-//        WebElement accountLink = driver.findElement(By.cssSelector("#header > div > div.skip-links > div > a > span.label"));
-//        accountLink.click();
         driver.findElement(By.cssSelector("#header-account > div > ul > li.last > a")).click();
         driver.findElement(By.id("email")).sendKeys("cosminfasttrackit.org");
         driver.findElement(By.id("pass")).sendKeys("121233456");
@@ -56,8 +52,6 @@ public class LoginTest {
         driver.manage().window().maximize();
         driver.get("http://testfasttrackit.info/selenium-test/");
         driver.findElement(By.cssSelector("#header > div > div.skip-links > div > a > span.label")).click();
-//        WebElement accountLink = driver.findElement(By.cssSelector("#header > div > div.skip-links > div > a > span.label"));
-//        accountLink.click();
         driver.findElement(By.cssSelector("#header-account > div > ul > li.last > a")).click();
         driver.findElement(By.cssSelector("#send2 > span > span")).click();
         driver.close();
